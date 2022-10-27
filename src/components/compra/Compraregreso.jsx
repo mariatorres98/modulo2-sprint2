@@ -6,7 +6,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 
 const Compraregreso = () => {
-    const getInforegreso = JSON.parse(localStorage.getItem('inforegreso'))
+    const getInforegreso = JSON.parse(localStorage.getItem('info'))
     const navigate = useNavigate();
 
     const home =()=>{
@@ -21,14 +21,15 @@ const Compraregreso = () => {
     
       }
   return (
-    <>
-    
+    <><div className='resultadoDerecha'>
+         
+                  
     <div>{
       getInforegreso.map((element, index)=>{
         return(
           <div key={index}>
            
-           <form className="vuelos_ida" onClick={()=>valorregreso(element)} >
+           <div className="vuelos_ida" onClick={()=>valorregreso(element)} >
         <p className="fecha_salida2">Vuelo de regreso</p>
         <p className="fecha_salida">{element.fecharegreso}</p>
         <p className="info">{element.dedonderegreso}</p>
@@ -62,50 +63,13 @@ const Compraregreso = () => {
         
         <button className="cambiar_vuelo" onClick={home}>cambiar vuelo</button>  
          
-      </form>
-
-
-
-      
+      </div>
 
           </div>
-
-
 
         )
       })
       }</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                   {/* <div>{
       getInforegreso.map((element, index)=>{
@@ -161,9 +125,13 @@ const Compraregreso = () => {
       }</div>
        */}
                   
-                  
-                  
-                  
+                  {/* <div className="card_derecha1">
+                    <div className="card_1">vuelo de regreso</div>
+                    <div className="card_2">ssss</div>
+                    <div className="card_3">ssssss</div>
+                    <div className="card_4">ssss</div>
+                  </div>   */}
+                  </div>       
                       </>
   )
 }

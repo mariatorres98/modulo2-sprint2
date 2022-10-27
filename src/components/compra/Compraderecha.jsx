@@ -28,7 +28,7 @@ const resta= ((getValorLocal.precio) - (getValorLocal.descuento))
                   <div className="card_derecha">
                     <div className="card_1">vuelo de regreso</div>
                     <div className="card_2">{getValorLocalregreso.dedonderegreso}</div>
-                    <div className="card_3">{getValorLocalregreso.horasalidaregreso} {getValorLocal.horallegadaregreso}</div>
+                    <div className="card_3">{getValorLocalregreso.horasalidaregreso} {getValorLocalregreso.horallegadaregreso}</div>
                     <div className="card_4">{getValorLocalregreso.fecharegreso}</div>
                   </div>
                   <p className="card_derecha_abajo">Costo de vuelo</p>
