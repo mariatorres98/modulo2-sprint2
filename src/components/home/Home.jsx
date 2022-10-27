@@ -10,10 +10,12 @@ import Homebutton from "../home/Homebutton.jsx";
 
 
 const Home = () => {
+  
   const [sensillo, setSencillo] = useState(false);
+
   const filtrado = [];
   const navigate = useNavigate();
-  //funcion que se me ejecuta con click
+  //funcion que se me ejecuta con el click en buscar
   const compra = async(e) => {
     e.preventDefault();
     //obtener los valores de mis botones
@@ -67,7 +69,7 @@ if(filtrado.length){
   
 }else{
  
-  // Swal.fire('upp no hya vuelos')
+  // Swal.fire('upp no hay vuelos')
   
 }
 
@@ -88,7 +90,7 @@ const comprasensillo = () => {
             Descubre vuelos al mejor precio y perfectos para cualquier viaje.
           </h2>
           <div className="card__principal__boton">
-            <button name="viajeRedondo" type="submit" className="card__principal__boton__1">
+            <button name="viajeRedondo" onClick={() => setSencillo(!sensillo)} type="submit" className="card__principal__boton__1">
               {" "}
               <p>Viaje redondo </p>{" "}
             </button>
@@ -104,7 +106,7 @@ const comprasensillo = () => {
                 name="origen"
                 className="card__principal__inferior__origen__select"
               >
-                <option value="">Ciudad de Mexico</option>
+                <option value="">---</option>
                 <option value="otawa"> Otawa</option>
                 <option value="alberta"> Alberta</option>
               </select>
