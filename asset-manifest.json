@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/modulo2-sprint2/static/css/main.227c667b.css",
+    "main.js": "/modulo2-sprint2/static/js/main.3cf67a62.js",
+    "static/media/ala1.PNG": "/modulo2-sprint2/static/media/ala1.cfa476fb8ba328a6814b.PNG",
+    "static/media/izquierda.PNG": "/modulo2-sprint2/static/media/izquierda.691766a93446156067f1.PNG",
+    "static/media/derecha.PNG": "/modulo2-sprint2/static/media/derecha.422c9fd370739a78614a.PNG",
+    "static/media/vuelos.PNG": "/modulo2-sprint2/static/media/vuelos.c75f852f42a77383cc8f.PNG",
+    "static/media/grupos.PNG": "/modulo2-sprint2/static/media/grupos.d7dfd26e9c0a70ac30cf.PNG",
+    "static/media/trasporte.PNG": "/modulo2-sprint2/static/media/trasporte.b04ea3221906e7a6d59c.PNG",
+    "static/media/hoteles.PNG": "/modulo2-sprint2/static/media/hoteles.2d0de765afbb3995a344.PNG",
+    "static/media/carga.PNG": "/modulo2-sprint2/static/media/carga.031431943d3d265ccab4.PNG",
+    "index.html": "/modulo2-sprint2/index.html",
+    "static/media/briefcase.svg": "/modulo2-sprint2/static/media/briefcase.429fd611a0f9c345e6819aa71c3fab6a.svg",
+    "main.227c667b.css.map": "/modulo2-sprint2/static/css/main.227c667b.css.map",
+    "main.3cf67a62.js.map": "/modulo2-sprint2/static/js/main.3cf67a62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.227c667b.css",
+    "static/js/main.3cf67a62.js"
+  ]
+}
